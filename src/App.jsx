@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import './App.css'
+import { Counter } from './features/counter/counter'
 
 function App() {
-
   return (
     <>
-
+      <Counter />
     </>
   )
 }
